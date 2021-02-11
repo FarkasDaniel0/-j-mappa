@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(216, 209, 183);
+}
+.containers{
+width: 1300px;
+height: 850px;
+border: solid black 2px;
+display: grid;
+margin: 0 auto;
+grid-template-columns: 130px;
+grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+}
+.first{
+
+    
+}
+.grid-item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: blue;
+}
+.grid-item2{
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color:green;
+}
+.grid-item3{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color:blue;
+}
+
+.grid-item4{
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 10;
+    background-color: red;
+}
+.grid-item5{
+   
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 10;
+    background-color: yellow;
+}
+.grid-item6{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 11;
+    background-color: lightblue;
+}
+.grid-item7{
+   
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 10;
+    grid-row-end: 18;
+    background-color: purple;
+}
+.grid-item8{
+   
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 17;
+    background-color: sienna;
+}
+.grid-item9{
+   
+    grid-column-start:5;
+    grid-column-end: 8;
+    grid-row-start: 10;
+    grid-row-end: 14;
+    background-color: fuchsia;
+}
+.grid-item10{
+   
+    grid-column-start:8;
+    grid-column-end: 10;
+    grid-row-start: 11;
+    grid-row-end: 14;
+    background-color: chocolate;
+}
+.grid-item11{
+   
+    grid-column-start:5;
+    grid-column-end: 10;
+    grid-row-start: 14;
+    grid-row-end: 17;
+    background-color: indigo;
+}
+.grid-item12{
+   
+    grid-column-start:3;
+    grid-column-end: 10;
+    grid-row-start: 17;
+    grid-row-end: 17;
+    background-color: goldenrod;
+}
