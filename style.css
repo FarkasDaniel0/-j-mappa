@@ -1,60 +1,102 @@
+@font-face{
+    font-family: 'HARRYP';
+    src: url(Fonts/HARRYP__.TTF);
+}
+@font-face{
+    font-family: 'Warrovnia';
+    src: url(Fonts/WarowniaBlkNrw.ttf);
+}
+@font-face{
+    font-family: 'Ludger';
+    src: url(Fonts/LudgerDuvernay.ttf);
+}
 body{
     background-color: rgb(216, 209, 183);
+    font-family: 'HARRYP';
+    font-size: 100px;
+    text-transform: uppercase;
 }
 .containers{
-width: 1300px;
+width: 1400px;
 height: 850px;
 border: solid black 2px;
 display: grid;
 margin: 0 auto;
-grid-template-columns: 130px;
+grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
 grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
 }
-.first{
 
-    
-}
 .grid-item1{
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    background-color: blue;
-}
-.grid-item2{
-    grid-column-start: 3;
     grid-column-end: 8;
     grid-row-start: 1;
     grid-row-end: 4;
-    background-color:green;
+    background-color: rgb(216, 209, 183);
+    font-family: 'Varovnia';
+    font-size: 28px;
+    text-align: right;
+    padding-right: -50px;
+    padding-left: -50px;
+    padding-top: -10px;
+    font-weight: bold;
+    background-image: url(img/neville.png);
+    background-repeat: no-repeat;
+    
+    background-position: top right;
+    
+    
 }
-.grid-item3{
+.grid-item2{
     grid-column-start: 8;
-    grid-column-end: 10;
+    grid-column-end: 23;
     grid-row-start: 1;
     grid-row-end: 4;
-    background-color:blue;
+    background-color:rgb(216, 209, 183);
+    background-image: url(img/cim.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -0px;
+    background-size: 200mm;
+    background-position: center;
+    
+}
+.grid-item3{
+    grid-column-start: 22;
+    grid-column-end: 29;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color:;
+    font-family: 'Ludger';
+    font-size: 40px;
+   padding-left: 60px;
+    text-align: justify;
+    font-weight: bold;
+    margin-left: -30px;
 }
 
 .grid-item4{
     
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 11;
     grid-row-start: 4;
     grid-row-end: 10;
-    background-color: red;
+    background-color: black;
+    font-family: 'Warrovnia';
+    color: rgb(216, 209, 183);
+    font-size: 200;
+    font-weight: bold;
 }
 .grid-item5{
    
-    grid-column-start: 4;
-    grid-column-end: 8;
+    grid-column-start: 11;
+    grid-column-end: 23;
     grid-row-start: 4;
     grid-row-end: 10;
-    background-color: yellow;
+    background-color: rgb(216, 209, 183);
 }
 .grid-item6{
-    grid-column-start: 8;
-    grid-column-end: 10;
+    grid-column-start: 23;
+    grid-column-end: 29;
     grid-row-start: 4;
     grid-row-end: 11;
     background-color: lightblue;
@@ -106,4 +148,66 @@ grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 
     grid-row-start: 17;
     grid-row-end: 17;
     background-color: goldenrod;
+}
+
+.neville{
+    float: right;
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: -30px;
+    padding-left:  -30px; ;
+}
+.neville2{
+    padding-left: 0px;
+    padding-top: -500px;
+    margin-right: 0px;
+    margin-left: 10px;
+   margin-top: -20px;
+    float: left;
+    text-align: justify;
+}
+.kalap{
+    float: left;
+    
+    margin-right: -200px;
+    padding-top: 0px;
+}
+.memorial{
+    width: 200px;
+    padding-left: 50px;
+    margin-top:-5px;
+}
+.Exclusive{
+   margin-top: -40px;
+    color: rgb(216, 209, 183);
+    background-color: black;
+    padding-right: 0px;
+    margin-right:40px ;
+    margin-left: 30px;
+    text-align: justify;
+}
+.harry{
+    margin-top: -10px;
+    margin-left: 30px;
+    margin-right: -60px;
+    margin-left: -5px;
+    line-height: 120px;
+    font-size: 120px;
+    letter-spacing:1px ;
+    text-align: justify;
+}
+.neville3{
+    margin-top: 50px;
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+   padding-top: 20;
+}
+.defeats{
+    margin-top: -1px;
+    font-size:60px ;
+    text-align: justify;
+    font-family: 'Warrovnia';
+    line-height: 78px;
+    letter-spacing: 5px;
 }
